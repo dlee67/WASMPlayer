@@ -14,3 +14,8 @@ I wasn't able to spin the application via Qt creator, but it was enough execute 
 within the build folder:
 
 ![Image description](https://github.com/dlee67/WASMPlayer/blob/master/final_prod.png)
+
+### 03/10/20
+
+Tried to build on my own, and turns out, I could just produce WASM with 5.14.1 kit in QC,
+even after uninstalling everything that I had in ~/QT folder.

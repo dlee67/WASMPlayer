@@ -12,3 +12,5 @@ https://doc.qt.io/qtcreator/creator-setup-webassembly.html
 
 I wasn't able to spin the application via Qt creator, but it was enough execute via emrun
 within the build folder:
+
+![Image description](https://github.com/dlee67/WASMPlayer/blob/master/final_prod.png)

@@ -1,5 +1,5 @@
 # WASMPlayer
-I am keep dealing with the cross platform issues at my workplace, and I wonder if WASM can take some weight off of our back.
+I am keep dealing with the cross platform issues at my workplace, and I wonder if WASM can take some weights off of our backs.
 
 ### 03/09/20
 I jump started this journey by following the below article:

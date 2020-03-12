@@ -19,3 +19,8 @@ within the build folder:
 
 Tried to build on my own, and turns out, I could just produce WASM with 5.14.1 kit in QC,
 even after uninstalling everything that I had in ~/QT folder.
+
+### 03/11/20
+
+Was trying to use QtWebEngine for 5.14 WASM, but it only works for the desktop kit
+(on the side note of things, building an image with Bitbake took 4 hours for it to complete).

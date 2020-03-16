@@ -41,3 +41,5 @@ https://github.com/njor/opencvjs
 ### 03/15/20
 For CVJSPlayer, I got the code from the below:
 https://github.com/habbes/opencv-web-video/blob/master/video.html
+
+OpenCVJS didn't work.

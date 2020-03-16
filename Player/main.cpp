@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     }
 
     QGuiApplication app(argc, argv);
+    QtWebView::initialize();
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));

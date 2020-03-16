@@ -16,6 +16,8 @@ int main(){
   // Create a VideoCapture object and open the input file
   // If the input is the web camera, pass 0 instead of the video file name
   VideoCapture cap("../Sample.mpg"); 
+  cvNamedWindow("Frame", CV_WINDOW_NORMAL);
+  cvSetWindowProperty("Frame", CV_WND_PROP_FULLSCREEN, CV_WINDOW_FULLSCREEN);
    
   // Check if camera opened successfully
   if(!cap.isOpened()){

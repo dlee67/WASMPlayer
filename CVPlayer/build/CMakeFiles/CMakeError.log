@@ -1,0 +1,394 @@
+Build output check failed:
+    Regex: 'argument .* is not valid'
+    Output line: 'cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8dfea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8dfea.dir/build.make CMakeFiles/cmTC_8dfea.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8dfea.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -o CMakeFiles/cmTC_8dfea.dir/src.c.o   -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_8dfea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dfea.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_8dfea.dir/src.c.o  -o cmTC_8dfea 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe517/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe517.dir/build.make CMakeFiles/cmTC_fe517.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe517.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_fe517.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_fe517
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe517.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_fe517.dir/src.cxx.o  -o cmTC_fe517 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_396f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_396f3.dir/build.make CMakeFiles/cmTC_396f3.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_396f3.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_396f3.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_396f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_396f3.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_396f3.dir/src.cxx.o  -o cmTC_396f3 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6e41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6e41.dir/build.make CMakeFiles/cmTC_e6e41.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6e41.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_e6e41.dir/src.c.o   -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_e6e41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6e41.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_e6e41.dir/src.c.o  -o cmTC_e6e41 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64ccf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64ccf.dir/build.make CMakeFiles/cmTC_64ccf.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64ccf.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wsuggest-override -o CMakeFiles/cmTC_64ccf.dir/src.c.o   -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_64ccf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64ccf.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_64ccf.dir/src.c.o  -o cmTC_64ccf 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cd93/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cd93.dir/build.make CMakeFiles/cmTC_7cd93.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cd93.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_7cd93.dir/src.c.o   -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_7cd93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cd93.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_7cd93.dir/src.c.o  -o cmTC_7cd93 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce303/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce303.dir/build.make CMakeFiles/cmTC_ce303.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ce303.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_ce303.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_ce303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce303.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_ce303.dir/src.cxx.o  -o cmTC_ce303 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63c42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63c42.dir/build.make CMakeFiles/cmTC_63c42.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63c42.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_63c42.dir/src.c.o   -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_63c42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63c42.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_63c42.dir/src.c.o  -o cmTC_63c42 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aeb83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aeb83.dir/build.make CMakeFiles/cmTC_aeb83.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aeb83.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_aeb83.dir/src.c.o   -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_aeb83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeb83.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_aeb83.dir/src.c.o  -o cmTC_aeb83 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_917a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_917a5.dir/build.make CMakeFiles/cmTC_917a5.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_917a5.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_917a5.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_917a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_917a5.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_917a5.dir/src.cxx.o  -o cmTC_917a5 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eccf1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eccf1.dir/build.make CMakeFiles/cmTC_eccf1.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eccf1.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_eccf1.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_eccf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eccf1.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_eccf1.dir/src.cxx.o  -o cmTC_eccf1 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48449/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48449.dir/build.make CMakeFiles/cmTC_48449.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48449.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_48449.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_48449
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48449.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_48449.dir/src.cxx.o  -o cmTC_48449 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_117cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_117cd.dir/build.make CMakeFiles/cmTC_117cd.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_117cd.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_117cd.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_117cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_117cd.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_117cd.dir/src.cxx.o  -o cmTC_117cd 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c13c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c13c5.dir/build.make CMakeFiles/cmTC_c13c5.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c13c5.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_c13c5.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_c13c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c13c5.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_c13c5.dir/src.cxx.o  -o cmTC_c13c5 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28a9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28a9e.dir/build.make CMakeFiles/cmTC_28a9e.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28a9e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_28a9e.dir/CheckIncludeFile.c.o   -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_28a9e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_28a9e.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_28a9e.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_28a9e/fast' failed
+make: *** [cmTC_28a9e/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf0e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf0e9.dir/build.make CMakeFiles/cmTC_cf0e9.dir/build
+make[1]: Entering directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf0e9.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-unused-private-field -std=c++11 -o CMakeFiles/cmTC_cf0e9.dir/src.cxx.o -c /home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_cf0e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf0e9.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_cf0e9.dir/src.cxx.o  -o cmTC_cf0e9 
+make[1]: Leaving directory '/home/bob/Desktop/WASMPlayer/CVPlayer/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+

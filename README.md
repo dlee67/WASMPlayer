@@ -43,3 +43,8 @@ For CVJSPlayer, I got the code from the below:
 https://github.com/habbes/opencv-web-video/blob/master/video.html
 
 OpenCVJS didn't work.
+Am able to build OpenCVJS with privillage escalation, but keep getting this error where CV is not found.
+
+### 04/16/20
+Used the pre-built OpenCV.js from somone else's repo: https://riju.github.io/WebCamera/samples/
+But the same error is happening where CV is not found.

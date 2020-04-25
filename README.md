@@ -56,7 +56,7 @@ https://emscripten.org/docs/api_reference/html5.h.html#c.emscripten_request_full
 https://github.com/emscripten-core/emscripten/issues/3283
 https://github.com/emscripten-ports/SDL2/issues/8
 
-It was reported to be fixed, but that was 5 years go:
+It was reported to be fixed, but that was 5 years ago:
 https://github.com/emscripten-core/emscripten/issues/2556https://emscripten.org/docs/api_reference/html5.h.html#c.emscripten_request_fullscreen
 
 Maybe having a consistant experience across different browsers isn't available
